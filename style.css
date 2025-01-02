@@ -49,21 +49,6 @@ header {
     transform: scale(1.1);
 }
 
-nav a {
-    font-size: 1.8rem;
-    color: white;
-    margin-left: 4rem;
-    font-weight: 500;
-    transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
-}
-
-nav a:hover,
-nav a.active {
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
-}
-
 section {
     min-height: 100vh;
     padding: 5rem 9% 5rem;
@@ -119,7 +104,7 @@ span {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-top: 3rem; /* Membuat jarak antara teks dan button */
+    margin-top: 3rem; /* Menambah jarak antara teks dan button */
 }
 
 .social-icons .btn {
@@ -240,4 +225,4 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
-    }
+}
