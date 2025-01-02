@@ -117,8 +117,9 @@ span {
 
 .social-icons {
     display: flex;
-    gap: 1.5rem;
-    margin-top: 3rem;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem; /* Membuat jarak antara teks dan button */
 }
 
 .social-icons .btn {
@@ -239,4 +240,4 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
-}
+    }
